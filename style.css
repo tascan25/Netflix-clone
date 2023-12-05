@@ -301,3 +301,56 @@ span{
     padding: 8px 20px 8px 20px;
     width: 150px;
 }
+
+@media screen and (max-width: 650px){
+
+      .cont{
+        background-position: center center;
+    }
+    
+    .navv{
+        width: 70vw;
+
+    }
+    .navv img{
+        width: 150px;
+    }
+    .navv .item ul{
+        gap: 10px;
+    }
+    .head-item{
+        margin-top: 100px;
+        margin-bottom: 40px;
+    }
+    .head-item h1{
+        font-size: 50px;
+    }
+    #textarea-text{
+        text-align: center;
+    }
+    .textarea input{
+        width: 300px;
+        height: 30px;
+    }
+    .net-btn-em{
+        font-size: 20px;
+        padding: 2px 6px;
+    }
+    .main-cont1{
+        height: 20vh;
+        width: 50vw;
+    }
+    .main-cont1 h1{
+        font-size: 20px;
+    }
+    .main-cont2 .boxes{
+        flex-direction: column;
+        width: 150px;
+        height: 300px;
+        margin-top: 20px;
+        margin-bottom: 100px;
+    }
+    .main-cont2 span{
+        margin-bottom: 30px;
+    }
+}
